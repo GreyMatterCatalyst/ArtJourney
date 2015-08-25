@@ -1,17 +1,23 @@
 This project was conceived as a result of a final project for the course: ISTA301 Computational Art, 
 a course offered by the SISTA department at the University of Arizona.
 
+A live instance of this software can be viewed at:
+http://greymattercatalyst.net/art_journey/
+
 Credits
 
 Designer/Curator
+
 Amanda Brooke Zucker
 azucker@email.arizona.edu
 
 Designer/Curator
+
 Kelley Kristine Burch
 kkburch@email.arizona.edu
 
 Designer/Programmer
+
 Craig Barber
 craigb@email.arizona.edu 
 

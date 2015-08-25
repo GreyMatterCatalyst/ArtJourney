@@ -1,0 +1,253 @@
+body
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial,sans-serif;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+}
+.headerSection
+{
+    font-weight: bold;
+    font-size: 20px;   
+    text-align: left;     
+}
+.headerTitle
+{
+    display: inline-block;        
+    text-align: center;
+}
+.headerTitle a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+.headerTitle a:hover
+{
+    color: #85caf6;
+}
+
+.headerUserSection
+{
+    float: right;
+    font-size: 13px;
+}
+.logo
+{
+    height: 100px;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+nav
+{
+    margin-top: 10px;
+    background-color: #3655a7;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    width: 100%;
+    border-radius: 4px;
+    -moz-border-radius:4px; 
+    -webkit-border-radius:4px;
+}
+nav a
+{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-right: solid 1px white;
+    text-align: center;
+}
+nav a:hover
+{
+    color: #85caf6;
+}
+.footerSection
+{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top: solid 2px #3655a7;
+    padding-top: 5px;
+    bottom: 0px;
+}
+.contentSection
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    min-height: 380px;
+    word-wrap:break-word;
+    width: 98%;
+    text-align: left;
+    font-size: 13px;
+    padding: 10px;
+}
+.button
+{
+    background-color: #3655a7;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.searchResultItem {
+    border-bottom: solid 2px #000000;
+    padding: 3px;
+    margin: 5px;
+    max-height: 200px;
+    max-width: 50%;
+    
+}
+.searchResultItem img {
+    height: 150px;
+}
+.errorSection {
+    margin: 5px;
+    border: solid 3px #080808;
+    color: #EE3124;
+    font-weight: bold;
+    display: none;
+    padding: 10px;
+    clear: both;
+}
+.errorMessage {
+    clear: both;
+}
+.templateList {
+    display:inline-block;
+    /*float: right;*/
+    padding: 5px;
+    border: solid 3px;
+    border-color: #3655a7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.button:hover
+{
+    color: #85caf6;
+}
+
+.attribute_table {
+    border: solid black 1px;
+}
+.attribute_table th, td {
+    border: solid black 1px;
+    padding: 3px;
+}
+
+.attribute_table a {
+    text-decoration: underline;
+    color: #3655a7;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+
+.contentSectionHeader
+{
+    border-bottom: solid 2px #3655a7;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.imageForm
+{
+    width: 50%;
+}
+.imageForm label
+{
+    font-weight: bold;
+    margin-left: 0px;
+}
+.imageForm br
+{
+    margin-top: 5px;
+}
+.imageForm input[type=text]
+{
+    
+}
+.imageForm input[type=submit]
+{
+    margin-top: 10px;
+}
+.imageDetailsView label
+{  
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 0px;
+}
+.imageDetailsViewField
+{
+}
+
+.imageGridHeader {
+    font-weight:bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.imageGrid {
+    display: inline-block;
+    padding: 20px;
+    border: solid 4px #3655a7;
+    border-radius: 4px;
+    -moz-border-radius:4px; 
+    -webkit-border-radius:4px;
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageGrid img {
+    height: 200px;
+    margin: 10px;
+    border: solid 2px black;
+}
+
+.currentJourneyImageSection {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-botton: 20px;
+    max-width: 90%;
+}
+
+.currentJourneyImageSection img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.finishJourneyButtonSection {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.centerWrapper {
+    text-align:center;
+}
